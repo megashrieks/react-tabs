@@ -11,7 +11,7 @@ class App extends Component {
 			active: id
 		});
 	};
-	tabs = ["tab 0", "tab 1", "tab 2"];
+	tabs = ["lemons", "life", "acnologia"];
 	render() {
 		let state = this.state;
 		return (
@@ -31,12 +31,16 @@ class App extends Component {
 						})}
 					</div>
 					<div className="content">
-						{state.active === 0 && <p>Tab 0 content
-							 ad;sas;lksf;lkanaffssddddddddddd
-							 dddddddddddddddddddddgffffff
-							 ffffffffffffffffffffffffffffddddffs;</p>}
-						{state.active === 1 && <p>Tab 1 content</p>}
-						{state.active === 2 && <p>Tab 2 content</p>}
+						{state.active === 0 && <p>
+							When life gives you lemons,make lemonade.
+						</p>}
+						{state.active === 1 && <p>
+							The existence of life is meaningless
+						</p>}
+						{state.active === 2 && <p>Some other 
+							words of
+							wisdom that will make you think i am
+							old and wise</p>}
 					</div>
 				</div>
 			</div>
