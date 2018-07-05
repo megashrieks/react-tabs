@@ -25,12 +25,16 @@ class App extends Component {
 									id={i}
 									active={state.active}
 									select={this.select}
+									key={i}
 								/>
 							);
 						})}
 					</div>
 					<div className="content">
-						{state.active === 0 && <p>Tab 0 content</p>}
+						{state.active === 0 && <p>Tab 0 content
+							 ad;sas;lksf;lkanaffssddddddddddd
+							 dddddddddddddddddddddgffffff
+							 ffffffffffffffffffffffffffffddddffs;</p>}
 						{state.active === 1 && <p>Tab 1 content</p>}
 						{state.active === 2 && <p>Tab 2 content</p>}
 					</div>
